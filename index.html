@@ -2,12 +2,473 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- personalised meta-data -->
+    <meta property="og:title" content="Lesedi Maleka front-end developer portfolio">
+<meta property="og:description" content="Portfolio Website about Lesedi.Services that she offers.Programming knowlegde">
+<meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+<meta property="og:url" content="https://lesedimaleka.github.io/PortfolioWebsite/">
+
+
+  <!-- Bootstrap 4 css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+  
+    <!-- font family link -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- external style sheet -->
     <link rel="stylesheet" href="css/stylesheets.css">
+    <!-- fontawesome icon style link -->
+    <link rel="stylesheet" href="assests/fontawesome/css/all.min.css">
+
+
+
+  
+
     <title>Lesedi Maleka</title>
 </head>
 <body>
 
-    <h1>Lesedi</h1>
+    <!-- media icons -->
+         <div class="d-flex flex-row bd-highlight mb-3 justify-content-start">
+
+                <div class="p-2 bd-highlight MediaIcons">
+                    <!-- github icon -->
+                    <i class="fab fa-github"></i>
+                </div>
+
+                <!-- linedIn icon -->
+                <div class="p-2 bd-highlight MediaIcons">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+
+                <!-- Message icon -->
+                <div class="p-2 bd-highlight MediaIcons">
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <!-- Telephone icon -->
+                <div class="p-2 bd-highlight MediaIcons mediaIconsNavbar">
+                    <i class="fas fa-phone"></i>
+                </div>
+        </div>
+
+  <!-- The overlay -->
+  <div class="NavBar mobile-only tablet-only">
+      <div id="myNav" class="overlay">
+
+
     
+
+         <div class="closeIconDiv">
+            <i class="fas fa-times closebtn closebtnIcon" onclick="closeNav()"></i>
+         </div>
+        
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="AboutMe.html">About Me</a>
+                <a href="journey.html">Journey</a>
+                <a href="resume.html">Resume</a>
+                <a href= "Contact.html">Get In Touch</a>
+            </div>
+       </div>
+    
+
+         <div class="navbar-brand col-4 mobile-only tablet-only" id="menuToggle">
+            
+             <!--  the overlay navigation menu -->
+                <div class="d-flex flex-row-reverse">  
+                    
+                 <i class="fas fa-bars NavbarIcons" style="cursor:pointer" onclick="openNav()"></i>
+                </div>
+         </div>
+
+   
+   </div>
+
+   
+      
+         <!-- coders name -->
+        <div class="NameDiv">
+            <!-- coders name -->
+            <h1 class="name">LESEDI</h1>
+        </div>
+
+  <div class="NameHrLine"></div>
+
+      <!-- desktop navbar -->
+        
+
+        
+            <nav class="navbar navbar-expand-lg navbar-white desktop-only DesktopNavbar">
+                
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html"><strong>HOME </strong><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="AboutMe.html">ABOUT ME</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="journey.html">JOURNEY</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="resume.html">RESUME</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">GET IN TOUCH</a>
+                      </li>
+                
+                  </ul>
+                </div>
+              </nav>
+
+    <!-- Tagline section -->
+    <div class="block">
+
+            <!-- greeting div -->
+                <div class="d-flex flex-row bd-highlight mb-3 GreetingDiv typewriter">
+                    <div class="p-2 bd-highlight Tagline">&#x7b;</div>
+                    <div class="p-2 bd-highlight Tagline greeting">HI</div>
+                    <div class="p-2 bd-highlight Tagline">&#x7d;</div>
+                </div>
+
+             
+            
+                <p class="TaglinePara"> &#x3c;p&#x3e;<strong class="TaglineParaText">I am a front-end developer, <br> and an unconventional web-designer.</strong> &#x3c;/p&#x3e;</p>
+
+                <div class="desktop-only arrowDiv"> <p class="arrow">&#x2193; </p></div>
+   </div>
+
+
+<br><br>
+   <!-- about me section -->
+   <div class="d-flex AboutMeDIv align-items-center flex-column bd-highlight mb-3">
+
+         <div class="p-2 bd-highlight">
+             <h2 class="AboutMeHeading">About Me</h2>
+        </div>
+
+        <br>
+
+            <div class="p-2 bd-highlight ImageDiv">
+                <img class="LesediImage" src="assests/images/Lesedi.jpg" alt="Lesedi's picture" width="200px">
+            </div>
+
+            
+       <br>
+
+
+        <div class="p-2 bd-highlight AboutMeContent flexDiv">
+             <p class="AboutMeText"> My name is Lesedi Maleka. I was born in a small town known as Schweizer-Reneke, North West. I later moved to Johannesburg where most of my paternal family lives. I am a Junior Developer with a few months experience in creating and developing websites. A little bit about myself;I consider myself to be an intelligent person, and love fun-facts that can be irrelevant to most.
+                
+
+             <br><br>
+             I love what I do, and I am passionate about coding, and causes me to challenge myself on a daily basis. It is the driving force behind what I do. It is my motivation to strive to improve with every project. 
+            
+             Coding has for years been a male dominated field, however there are more women in programming who are making significant contributions to the field. This knowledge has taught me the importance of having the perseverance to change things. Therefore, I will strive towards making positive changes.
+                
+                <br><br>
+
+             By adapting and being patient in solving complex problems,I have developed multiple skills and learnt to find solutions.It is my hope that my successes and achievements will further motivate more women to consider this field. It would be a great priviledge and pleasure if I could make direct and meaningful contributions to the empowerment of women.
+                
+                <br><br>
+
+                Don’t be fooled, I’m not just a programmer, I am so much more. Outside of programming and in terms of hobbies, I enjoy watching soccer, taking photographs and reading fictional books.
+                 
+            </p>
+        </div>
+
+    
+
+
+      <a href="AboutMe.html">
+      
+        <button type="button" class="btn AboutMeButton mobile-only tablet-only"> More about me</button>
+      </a>
+   
+
+  </div>
+
+  <br>
+
+   <!-- ada graduate section -->
+   <div class="d-flex GraduateDIv align-items-center flex-column bd-highlight mb-3">
+
+    <div class="p-2 bd-highlight">
+        <h2 class="GraduateHeading">I am an ADA graduate!</h2>
+   </div>
+
+   <br>
+
+       <div class="p-2 bd-highlight ImageDiv">
+           <img class="AdaImage" src="assests/images/ADA logo.png" alt="Ada picture" width="200px">
+       </div>
+
+       
+  <br>
+
+
+   <div class="p-2 bd-highlight GraduateContent">
+        <p class="GraduateText"> I have studied front-end development at the African Developers Academy. It was an invaluable experience and I really enjoyed it. I made mistakes and learnt from them - they have helped me to grow as a person. Working in groups has taught me the importance of teamwork, and how much my contributions can add value. I am willing to go the extra mile in order to achieve the objectives and goals. I learnt to put more effort into my job and my projects.
+           
+           <br><br>
+
+           As a graduate from ADA, programming languages have affected the way I think about things. I am confident that the skills I have acquired during the learnership program will help me in my endeavour to become an exceptional coder. The journey has just begun but I am looking forward to new and exciting challenges ahead.
+            
+       </p>
+   </div>
+
+
+   <a href="journey.html">
+   
+     <button type="button" class="btn GraduateButton SecondGraduateButton"> My journey at ADA</button>
+   </a>
+
+   <br>
+   
+   <a href="resume.html">
+   
+    <button type="button" class="btn GraduateButton"> View my resume</button>
+  </a>
+
+
+</div>
+
+
+
+<br>
+
+   <!-- testimonals section -->
+   <div class="d-flex align-items-center TestimonalsDiv flex-column bd-highlight mb-3">
+
+         <div class="p-2 bd-highlight">
+             <h2 class="TestimonalsHeading">Testimonals</h2>
+        </div>
+
+        <br>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col TestimonalsDivs">
+              <div class="card" >
+                <img src="assests/images/ADA logo.png" class="card-img-top TestimonalImage" alt="...">
+              
+                <div class="card-body ContactDiv">
+
+                  <!-- linkedIn icon -->
+                <div class="p-2 bd-highlight">
+
+                  <a href="https://www.linkedin.com/in/african-developers-academy-9903b9188/"><i class="fab fa-linkedin-in"></i></a>
+                  
+              </div>
+
+
+                  <p class="card-text TestimonalsContactText">CONTACT ADA</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col"> <p class="TestimonalsContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque atque sequi vitae,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam s quis et omnis alias voluptatum vitae,Lorem, ipsumsee.
+
+              <br>
+              <strong>-Ada</strong>
+            </p> </div>
+
+
+            <div class="w-100"></div>
+            <div class="col TestimonalsDivs">
+              <div class="card">
+                <img src="assests/images/Laura.jpg" class="card-img-top lectureImages" alt="...">
+                <div class="card-body ContactDiv">
+                       <!-- linedIn icon -->
+                <div class="p-2 bd-highlight">
+                 <a href="https://www.linkedin.com/in/laura-ann-seal-59b713195/"> <i class="fab fa-linkedin-in"></i></a>
+              </div>
+
+                  <p class="card-text TestimonalsContactText">CONTACT LAURA</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col"> <p class="TestimonalsContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque atque sequi vitae,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam natus, eos sequi explicabo aperiamvitae,Lorem, ipsum dolor sit
+
+              <br>
+              <strong>-Laura Seal</strong>
+            </p> </div>
+          </div>
+
+
+        
+
+          <div class="row">
+            <div class="col TestimonalsDivs">
+              <div class="card">
+                <img src="assests/images/Andrea.jpg" class="card-img-top lectureImages" alt="...">
+                <div class="card-body ContactDiv">
+                      <!-- linedIn icon -->
+                <div class="p-2 bd-highlight">
+                 <a href="https://www.linkedin.com/in/andreahayes720192/"> <i class="fab fa-linkedin-in"></i></a>
+              </div>
+
+                  <p class="card-text TestimonalsContactText">CONTACT ANDREA</p>
+                </div>
+              </div>
+            </div>
+            <div class="col"> <p class="TestimonalsContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque atque sequi vitae,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam natus quis et omnis alias voluptatum veritatis,see.eos sequi explicabo ap
+            
+              <br>
+              <strong>-Andrea Hayes</strong>
+
+            </p>
+            
+              
+            </div>
+
+
+            
+            
+            <div class="w-100"></div>
+            <div class="col TestimonalsDivs">
+              <div class="card">
+                <img src="assests/images/Kate.jpg" class="card-img-top lectureImages" alt="...">
+                <div class="card-body ContactDiv">
+                       <!-- linedIn icon -->
+                <div class="p-2 bd-highlight">
+                 <a href="https://www.linkedin.com/in/kate-marsay/"> <i class="fab fa-linkedin-in"></i></a>
+              </div>
+
+                  <p class="card-text TestimonalsContactText">CONTACT KATE</p>
+                </div>
+              </div>
+            </div>
+            <div class="col"> <p class="TestimonalsContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque atque sequi vitae,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam natus, eos sequi explicabo aperiam excepturi dolores dignissimos quis et omnis alias voluptatum veritatis,see.
+
+              <br>
+              <strong>-Kate Marsay</strong>
+            </p> </div>
+          </div>
+
+        </div>
+
+  </div>
+
+   
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="logo">
+        <h2 class="mobile-only">little logo</h2>
+        <h2 class="hide-on-mobile desktop-only tablet-only">big logo</h2>
+    </div>
+
+   <div class="block">
+
+    <h1>Lesedi</h1>
+    <p class="mobile-only">you are on a phone</p>
+    <p class="hide-on-mobile tablet-only">you are on a ipad</p>
+    <p class="hide-on-mobile desktop-only">you are on a computer</p>
+
+   </div>
+
+   <div class="red-block hide-on-mobile desktop-only"><i class="fas fa-heart"></i></div>
+
+
+  <footer>
+
+       <!-- media icons -->
+       <div class="d-flex flex-row bd-highlight mb-3 justify-content-center">
+
+        <div class="p-2 bd-highlight MediaIcons">
+            <!-- github icon -->
+            <i class="fab fa-github"></i>
+        </div>
+  
+        <!-- linedIn icon -->
+        <div class="p-2 bd-highlight MediaIcons">
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+  
+        <!-- Message icon -->
+        <div class="p-2 bd-highlight MediaIcons">
+            <i class="fas fa-envelope"></i>
+        </div>
+  
+        <!-- Telephone icon -->
+        <div class="p-2 bd-highlight MediaIcons mediaIconsNavbar">
+            <i class="fas fa-phone"></i>
+        </div>
+  
+       
+  </div>
+  
+  <p class="CopyText">Copyright 2020,made by <strong class="FullName">Lesedi Maleka</strong> </p>
+  </footer>
+
+   <!-- Bootstrap 4 javascript -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<!-- My script link -->
+<script src="js/script.js"></script>
 </body>
 </html>
