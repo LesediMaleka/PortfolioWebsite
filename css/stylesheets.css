@@ -257,7 +257,7 @@ top: 5px;
   /* testimonals section */
 .TestimonalsDiv{
     width: 90vw;
-    height: 205vh;
+    height: 235vh;
     margin: auto;
     text-align: center;
     background: rgb(41, 40, 40); 
@@ -303,6 +303,35 @@ top: 5px;
     width: 100%;
     height: 20vh;
   }
+
+/* get in touch section */
+.FormDiv{
+    width: 90vw;
+    height: 110vh;
+    margin: auto;
+    text-align: center;
+    background: rgb(41, 40, 40); 
+  }
+  .FormHeading{
+    margin-top: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+.FormContent{
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 18px;
+    text-align: justify;
+    text-size-adjust: 2px;
+    margin: 20px;
+}
+  /* form section */
+.form-control{
+    background-color: rgb(160, 158, 158);
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
   /* footer text */
   .CopyText{
       text-align: center;
@@ -312,73 +341,6 @@ top: 5px;
     color:#f7931e;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* general classes */
 .hide-on-mobile{
     display: none;
@@ -387,10 +349,6 @@ top: 5px;
 .DesktopNavbar{
     display: none;
 }
-
-
-
-
 /* header section */
 .block{
     width: 90vw;
@@ -398,6 +356,9 @@ top: 5px;
     margin: auto;
     text-align: center;
     background: rgb(41, 40, 40);
+}
+.col{
+    margin-bottom: 10vh;
 }
 
 
@@ -483,7 +444,7 @@ top: 5px;
     /* testimonals section */
 
     .TestimonalsDiv{
-        height: 140vh;
+        height: 165vh;
       }
       .TestimonalsDivs{
           transform: translateX(10vw);
@@ -506,6 +467,20 @@ top: 5px;
         width: 20vw;
         height: 15vh;
     }
+    /* get in touch section */
+    .FormDIv{
+        height: 70vh;
+    }
+
+    /* footer section */
+    .footerIcons{
+        color: pink;
+        background-color: yellow;
+    }
+    footer{
+        height: 20vh;
+    }
+    
  }
 
 /* // --------------------------------------------------------------Large devices (ipad pro) */
@@ -663,6 +638,57 @@ top: 5px;
   .SecondGraduateButton{
     transform: translate(20px, -262px); 
 }
+  /* testimonals section */
+  .TestimonalsDiv{
+    width: 86vw;
+    height: 100vh;
+  }
+  .TestimonalsHeading{
+    font-weight: 300;
+    text-align: center;
+    font-size: 2em;
+    width: 20vw;
+    margin-top: 8vh;
+}
+.TestimonalImage{
+    width: 10vw;
+    height: 15vh;
+  }
+  .ContactDiv{
+    width: 10vw;
+    height: 15vh;
+}
+.lectureImages{
+    width: 10vw;
+    height: 15vh;
+  }
+  .TestimonalsContent{
+    margin-left: -15vw;
+    width: 20vw;
+   
+ }
+ .firstColums{
+     margin-left: -10vw;
+ }
+ .firstColumsText{
+    margin-left: -20vw;
+}
+ .secondColums{
+    transform: translate(30vw,-80vh);
+}
+
+/* form section */
+.FormDIv{
+    width: 86vw;
+    height: 77vh; 
+}
+.FormContent{
+    transform: translate(20px,10px);
+}
+.FormText{
+    width: 40vw;
+}
+
   
     
  }
