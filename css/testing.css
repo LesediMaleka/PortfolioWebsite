@@ -1,0 +1,302 @@
+ html{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+body{
+    background: black !important;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    overflow-x: hidden;
+    
+}
+h1{
+    text-align: center;
+    color: #eb5e28;
+    letter-spacing: 0.2em;
+}
+h2{
+    text-align: center;
+    color: #f7931e;
+    font-size: 0.8em;
+    margin-top: 5vh;
+}
+.MediaDiv{
+    z-index: 200;
+}
+/* Navbar for mobile*/
+ .overlay {
+     height: 100%;
+     width: 100%;
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left:-100vw;
+     top: 0;
+     left: 0;
+     background-color: rgb(41, 40, 40);
+     overflow: hidden; 
+     transition: 0.5s; 
+   }
+
+ .overlay-content ul{
+     list-style: none;
+ }
+
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+  }
+
+
+   /* The navigation links inside the overlay */
+   .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block; 
+    transition: 0.3s; 
+    font-size: 1.2em;
+  }
+
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    right: 35px;
+    top: 2px;
+    font-weight: 900;
+  }
+
+ /*media icons */
+ .icon{
+     display: inline-block;
+     font-size: 1em;
+     border: 1.5px solid white;
+     border-radius: 50%;
+     height: 40px;
+     width: 40px;
+     text-align: center;
+     padding-top: 2px;
+ }
+
+ /* burger navbar */
+.Bars{
+    margin-left: -5vh;
+}
+ a{
+    color: white;
+  }
+  a:hover{
+      color:#f7931e;
+  }
+ .Desktop{
+     display: none;
+ 
+ }
+.icon.mobile{
+    float: right;
+    color: white;
+}
+
+.name{
+    color: #eb5e28;
+}
+
+.NameHrLine{
+    border-top: 1px solid white;
+    margin: 20px;
+}
+
+/* MediaIcons for mobile device footer */
+.mediaIcons{
+   text-align: center;
+   padding-top: 5px;
+}
+ 
+ 
+ 
+ 
+ /* footer text */
+ .CopyText{
+    text-align: center;
+    font-size: 14px;
+}
+.FullName{
+  color:#f7931e;
+}
+
+/* my journey page */
+
+.JourneyHeading{
+    margin-top: -5vh;
+    font-weight: 200;
+    font-size: 1.5em;
+    color:#f7931e;
+}
+
+.block{
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background: rgb(41, 40, 40);
+}
+/* paragraph text */
+.AboutMeContent{
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 18px;
+    text-align: justify;
+    text-size-adjust: 2px;
+    margin: 20px;
+}
+/* about me page */
+
+.IconDiv{
+    background-color:#f7931e ;
+    border-radius: 50%;
+    font-size: 2em;
+    padding: 20px;
+    color: #000;
+    margin-top: 20px;
+}
+
+
+
+
+ 
+ 
+
+   /* --------------------------------------------------------------media queries */
+ 
+ /* // Extra small devices (portrait phones, less than 576px) */
+ /* // No media query for `xs` since this is the default in Bootstrap */
+ 
+ /* // -------------------------------------------------------------Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (orientation: landscape) { 
+  
+   
+ }
+ 
+ /* // --------------------------------------------------------------Medium devices (tablets) */
+ @media (min-width: 768px) {
+     
+ }
+ 
+ /* // --------------------------------------------------------------Large devices (ipad pro) */
+ @media (min-width: 992px) { 
+   
+ 
+    
+ }
+   @media screen and (min-width: 1200px) {
+     
+ 
+     /* media icons */
+     .icons{
+         text-align: right;
+     }
+
+     .mobile-only{
+         display: none;
+     }
+    .Desktop{
+    display: block;
+    color: white;
+    }  
+       
+
+     /* navbar desktop */
+     #myNav{
+     display: none;
+     }
+     ul.desktop-nav{
+         list-style: none;
+         text-decoration: none;
+     }
+         
+      /* desktop navbar */
+      .DesktopNavbar{
+        display: inline-block;
+        animation: slide-in 3s ease-out;
+      }
+      .nav-link{
+        color: white;
+        animation: slide-in 3s ease-out;
+        margin-left: 10px;
+        font-weight: 200;
+        font-size: 0.8em;
+      }
+      .nav-link:hover{
+          color: #f7931e;
+          text-shadow: 0 -1px 0 #eb5e28;
+      }
+    
+          /* animation for the desktop navbar */
+          /* @keyframes slide-in {
+            0% {
+              top: -50px; color: #fff;
+            }
+            40% {
+              top: 20px; color:#eb5e28;
+            }
+            70% {
+              top: 10px; color:#f7931e;
+            }
+            100% {
+              top: -20px; color: #fff;
+            }
+          }
+  */
+ 
+   
+     .MediaDiv{
+        margin-bottom: -40vh;
+        padding-top: 50px;
+        margin-left: 5vw;
+     }
+     /* hr line */
+     .NameHrLine{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    /* journey page */
+    .JourneyHeading{
+        margin-top: 5vh;
+       
+    }
+
+    /* about me page */
+    .AboutEndDiv{
+        background-color: #eb5e28;
+        color: black;
+        height: auto;
+        width: 86vw;
+        margin: auto;
+        margin-top: 25px;
+        margin-left: 1vw;
+      }
+      .laptopIcon{
+          background-color: white;
+          margin-bottom: 25px;
+          margin-left: 25vw;
+    
+      }
+      .JobTitle{
+          color: #000;
+          margin-left: -30vw;
+          margin-top: 7vh;
+      }
+    
+
+ 
+   }
+   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
