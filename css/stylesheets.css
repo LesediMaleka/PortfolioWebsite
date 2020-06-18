@@ -234,7 +234,7 @@ h2{
  
      /* media icons */
      .icons{
-         text-align: right;
+         margin-left: 70%;
      }
 
      .mobile-only{
