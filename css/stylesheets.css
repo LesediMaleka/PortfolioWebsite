@@ -24,7 +24,7 @@ h2{
     margin-top: 5vh;
 }
 .MediaDiv{
-    z-index: 200;
+    z-index: 20;
 }
 /* Navbar for mobile*/
  .overlay {
@@ -85,6 +85,11 @@ h2{
      text-align: center;
      padding-top: 2px;
  }
+  /* media icons */
+  .icon.mobile{
+    float: right;
+    color: white;
+  }
 
  /* burger navbar */
 .Bars{
@@ -96,59 +101,98 @@ h2{
   a:hover{
       color:#f7931e;
   }
+  .btn:hover{
+    color: #f7931e;
+    opacity: 1;
+  }
  .Desktop{
      display: none;
  
  }
-.icon.mobile{
-    float: right;
-    color: white;
-}
-
+/* coders name */
 .name{
     color: #eb5e28;
 }
-
+/* hr line */
 .NameHrLine{
     border-top: 1px solid white;
     margin: 20px;
 }
+/* ------------------------------------------------ */
 
-/* MediaIcons for mobile device footer */
-.mediaIcons{
-   text-align: center;
-   padding-top: 5px;
+ /* Tagline section */
+.Tagline{
+  font-size: 6em;
+  color:rgb(105, 102, 102);
+  font-weight: 250;
+  /* animation: 
+  typing 3.5s steps(30, end),
+  mymove 3.5s,
+  blink-caret .5s step-end infinite; */
+}
+.greeting{
+  color: white;
+  font-weight: 350;
+}
+.TaglinePara{
+  color: rgb(160, 158, 158);
+  font-size: 0.7em;
+  font-weight: 550;
+}
+.TaglineParaText{
+  color:#f7931e; 
+  font-weight: 500;
 }
  
- 
- 
- 
- /* footer text */
- .CopyText{
-    text-align: center;
-    font-size: 14px;
+/* Greeting div keyframes */
+@keyframes mymove {
+  0%   {color:#eb5e28;}
+  50%   { color:#f7931e;}
+  100% { color: #fff;}
 }
-.FullName{
-  color:#f7931e;
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.arrowDiv{
+  display: none;
+}
+
+
+
+/* --------------------------------------------- */
 /* my journey page */
-
+/* heading for most the page heading */
 .JourneyHeading{
     margin-top: -5vh;
     font-weight: 200;
     font-size: 1.5em;
     color:#f7931e;
 }
-
+.Heading{
+  margin-top: 5vh;
+  font-weight: 200;
+  font-size: 1.5em;
+  color:#f7931e;
+}
+/* grey div */
 .block{
     width: 90vw;
     height: auto;
     margin: auto;
     text-align: center;
     background: rgb(41, 40, 40);
+    margin-bottom: 10vh;
 }
-/* paragraph text */
+/* paragraph text for all the pages and sectiopn */
 .AboutMeContent{
     font-size: 14px;
     font-weight: 250;
@@ -158,7 +202,6 @@ h2{
     margin: 20px;
 }
 /* about me page */
-
 .IconDiv{
     background-color:#f7931e ;
     border-radius: 50%;
@@ -167,7 +210,6 @@ h2{
     color: #000;
     margin-top: 20px;
 }
-
 /* get in touch section/page */
 .FormButton{
   color: white;
@@ -178,12 +220,89 @@ h2{
   padding: 10px;
 }
   /* form section */
-  .form-control{
+.form-control{
     background-color: rgb(209, 204, 204);
     color: rgb(255, 255, 255);
     font-weight: 400;
 }
+.FormDiv{
+  margin-bottom: 5vh;
+}
+/* resume page */
+.Stars{
+  font-size: 14px;
+  font-weight: 250;
+  line-height: 18px;
+  text-align: justify;
+  text-size-adjust: 2px;
+  margin: 20px;
+  color: #f7931e;
+}
+.SkillsText{
+  font-weight: 700;
+  line-height: 18px;
+  text-align: justify;
+  text-size-adjust: 2px;
+  margin: 20px;
+  color: white;
+}
 
+/* footer section */
+ /* footer text */
+ .CopyText{
+  text-align: center;
+  font-size: 14px;
+}
+.FullName{
+color:#f7931e;
+}
+/* MediaIcons for mobile device footer */
+.mediaIcons{
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* Tagline section */
+.TaglineDiv{
+  margin-top:-10vh;
+}
+
+/* about me section */
+.LesediImage{
+    box-shadow: -20px -20px  rgb(119, 118, 118);
+    width: 200px;
+    border: 2px solid white;
+}
+.AboutMeDIv{
+  margin-bottom: 5vh;
+}
+
+.AboutMeButton{
+    color: white;
+    background-color: #eb5e28;
+    border-radius: 50px;
+    font-weight: 600;
+    width: 60vw;
+    padding: 10px;
+}
+
+  /* I am an Ada graduate section */
+  .Image{
+    width: 200px;
+    border: 2px solid white;
+  }
+
+    .GraduateButton{
+      color: white;
+      background-color: #eb5e28;
+      border-radius: 50px;
+      font-weight: 600;
+      width: 60vw;
+      padding: 10px;
+  }
+  .SecondGraduateButton{
+      background-color: rgb(119, 118, 118);
+  }
 
 
 
@@ -194,12 +313,14 @@ h2{
  
  /* // -------------------------------------------------------------Small devices (landscape phones, 576px and up) */
  @media (min-width: 576px) and (orientation: landscape) { 
-  
+ 
    
  }
  
  /* // --------------------------------------------------------------Medium devices (tablets) */
  @media (min-width: 768px) {
+
+
      
  }
  
@@ -209,133 +330,225 @@ h2{
   /* navbar */
   .DesktopNavbar{
     display: none;
-    }  
-
-   /* journey page */
-    .JourneyHeading{
-        margin-top: 5vh;
-       
+    } 
+    
+    /* Tagline section */
+    .TaglineDiv{
+      margin-top:5vh;
     }
-   /* get in touch section/page */
+  /* about me section */
+  .AboutMeHeading{
+    /* text-align: right; */
+    font-size: 1.4em;
+    margin-bottom: -2vh;
+    margin-left: 22vw;
+  }
+  .LesediImage{
+    width: 260px;
+    margin-top: 5vh;
+    margin-left: -5vw;
+  }  
+
+  /*I am an Ada graduate section */
+  .Image{
+    width: 260px;
+    margin-top: 3vh;
+    margin-left: -5vw;
+  }  
+  .Paratext{
+    margin-left: -5vw;
+    width: 40vw;
+  }
+
+  .GraduateButton{
+    width: 20vw;
+    margin-left: -15vw;
+}
+  .AboutMeButton{
+    width: 20vw;
+    margin-left: -5vw;
+  }
+   /* journey page */
+   .JourneyHeading{
+    margin-top: 5vh;
+   
+  }
+  /* get in touch section/page */
   .FormButton{
   width: 20vw;
-   }
-   .FormDiv{
-    width: 80vw;
-    margin: auto;
-    text-align: center;
-    background: rgb(41, 40, 40); 
   }
- 
+  .FormDiv{
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  background: rgb(41, 40, 40); 
+  margin-bottom: 5vh;
+  }
     
  }
    @media screen and (min-width: 1200px) {
      
  
-     /* media icons */
-     .icons{
-         margin-left: 70%;
-     }
+  /* media icons */
+  .icons{
+      margin-left: 70%;
+  }
 
-     .mobile-only{
-         display: none;
-     }
-    .Desktop{
-    display: block;
-    color: white;
-    }  
+  .mobile-only{
+      display: none;
+  }
+
+  .Desktop{
+  display: block;
+  color: white;
+  }  
        
 
-     /* navbar desktop */
-     #myNav{
-     display: none;
-     }
-     ul.desktop-nav{
-         list-style: none;
-         text-decoration: none;
-     }
+  /* navbar desktop */
+  #myNav{
+  display: none;
+  }
+  ul.desktop-nav{
+      list-style: none;
+      text-decoration: none;
+  }
          
-      /* desktop navbar */
-      .DesktopNavbar{
-        display: inline-block;
-        animation: slide-in 3s ease-out;
-      }
-      .nav-link{
-        color: white;
-        animation: slide-in 3s ease-out;
-        margin-left: 10px;
-        font-weight: 200;
-        font-size: 0.8em;
-      }
-      .nav-link:hover{
-          color: #f7931e;
-          text-shadow: 0 -1px 0 #eb5e28;
-      }
+  /* desktop navbar */
+  .DesktopNavbar{
+    display: inline-block;
+    animation: slide-in 3s ease-out;
+  }
+  .nav-link{
+    color: white;
+    animation: slide-in 3s ease-out;
+    margin-left: 10px;
+    font-weight: 200;
+    font-size: 0.8em;
+  }
+  .nav-link:hover{
+      color: #f7931e;
+      text-shadow: 0 -1px 0 #eb5e28;
+  }
     
-          /* animation for the desktop navbar */
-          /* @keyframes slide-in {
-            0% {
-              top: -50px; color: #fff;
-            }
-            40% {
-              top: 20px; color:#eb5e28;
-            }
-            70% {
-              top: 10px; color:#f7931e;
-            }
-            100% {
-              top: -20px; color: #fff;
-            }
-          }
+    /* animation for the desktop navbar */
+    /* @keyframes slide-in {
+      0% {
+        top: -50px; color: #fff;
+      }
+      40% {
+        top: 20px; color:#eb5e28;
+      }
+      70% {
+        top: 10px; color:#f7931e;
+      }
+      100% {
+        top: -20px; color: #fff;
+      }
+    }
   */
  
+    /* grey div */
+    .block{
+      width: 86vw;
+    }
    
-     .MediaDiv{
-        margin-bottom: -40vh;
-        padding-top: 50px;
-        margin-left: 5vw;
-     }
-     /* hr line */
-     .NameHrLine{
-        margin-left: 100px;
-        margin-right: 100px;
+    /* media icons on the navbar */
+  .MediaDiv{
+    margin-bottom: -40vh;
+    padding-top: 50px;
+    margin-left: 5vw;
     }
+    /* hr line */
+  .NameHrLine{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 
-    /* journey page */
-    .JourneyHeading{
-        margin-top: 5vh;
-       
+  /* tagline section */
+  .Tagline{
+    font-size: 5em;
+  }
+  .TaglinePara{
+    font-size: 0.9em;
+  }
+
+  /* arrow icon  */
+  .arrow{
+    color:rgb(160, 158, 158);
+      border-radius: 50px;
+      border: 1px solid rgb(160, 158, 158);
+      width: 40px;
+      height: 60px;
+      font-size: 1.5em;
+      margin-left: 42vw;
+      font-weight: 400;
+  }
+  .arrowDiv{
+      display: block;
+      margin-top: 7vh;
+  }
+  .arrow:hover{
+    color:#f7931e;
+    border: 1px solid #f7931e;
+    text-decoration: none;
+  }
+  /* about me section */
+  .AboutMeButton{
+    width: 15vw;
+    margin-left: -5vw;
+}
+/* I am an Ada graduate section */
+.GraduateButton{
+  width: 15vw;
+  margin-left: -10vw;
+}
+  /* journey page */
+  .JourneyHeading{
+   margin-top: 5vh;
+  }
+
+  /* about me page */
+  .AboutEndDiv{
+    background-color: #eb5e28;
+    color: black;
+    height: auto;
+    width: 82vw;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 1vw;
+  }
+  .laptopIcon{
+    background-color: white;
+    margin-bottom: 25px;
+    margin-left: 25vw;
+  }
+  .JobTitle{
+    color: #000;
+    margin-left: -30vw;
+    margin-top: 7vh;
+  }
+  /* resume page */
+  .SkillsDiv{
+    background-color: #eb5e28;
+    color: #fff;
+  }
+  .SkillsDiv h2 {
+    color: #fff;
+  }
+
+  .Stars{
+    text-align: justify;
+    color: white;
+    margin-left: 12vw;
+    font-size: 0.8em;
+  }
+  .SkillsText{
+    font-size: 0.7em;
+  }
+  /* get in touch section/page */
+  .FormButton{
+    width: 15vw;
     }
-
-    /* about me page */
-    .AboutEndDiv{
-        background-color: #eb5e28;
-        color: black;
-        height: auto;
-        width: 86vw;
-        margin: auto;
-        margin-top: 25px;
-        margin-left: 1vw;
-      }
-      .laptopIcon{
-          background-color: white;
-          margin-bottom: 25px;
-          margin-left: 25vw;
-    
-      }
-      .JobTitle{
-          color: #000;
-          margin-left: -30vw;
-          margin-top: 7vh;
-      }
-
-      /* get in touch section/page */
-      /* .FormDiv{
-        width: 86vw;
-        margin: auto;
-        text-align: center;
-        background: rgb(41, 40, 40); 
-      } */
 
 
  

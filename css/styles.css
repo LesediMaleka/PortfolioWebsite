@@ -129,7 +129,11 @@ top: 5px;
 .NameHrLine{
     border-top: 1px solid white;
     margin: 20px;
+
+
 }
+
+/* start */
 /* Tagline section */
 .Tagline{
     position: relative;
@@ -174,6 +178,10 @@ top: 5px;
     50% { border-color: orange }
   }
 
+  /* end tagline */
+
+
+    /* start about me *//*  */
   /* about me section */
   .AboutMeDiv{
     width: 90vw;
@@ -293,12 +301,17 @@ top: 5px;
       background-color:#eb5e28 ;
       color: white;
   }
+
+  /* start anchor tag */
   a{
     color: white;
   }
   a:hover{
       color:#f7931e;
   }
+  /* end anchor tag */
+
+
   .TestimonalImage{
     width: 100%;
     height: 20vh;
@@ -528,6 +541,7 @@ top: 5px;
          margin: auto;
      }
 
+     /* start navbar */
       /* desktop navbar */
       .DesktopNavbar{
         position: relative;
@@ -536,6 +550,7 @@ top: 5px;
         width: 86vw;
         margin-left: 5px;
         transform: translateX(-50%);
+        /*  */
         display: inline-block;
         animation: slide-in 3s ease-out;
       }
@@ -566,6 +581,10 @@ top: 5px;
           top: -20px; color: #fff;
         }
       } */
+
+      /* end navbar */
+
+      /* start */
       .Tagline{
           font-size: 5em;
           left: 40%;
@@ -583,7 +602,7 @@ top: 5px;
       .arrowDiv{
           font-weight: 400;
       }
-
+/* end */
 
       /* about me section */
       .AboutMeDIv{
