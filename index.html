@@ -5,13 +5,13 @@
 
     <!-- personalised meta-data -->
     <meta property="og:title" content="Lesedi Maleka front-end developer portfolio">
-    <meta property="og:description" content="Portfolio Website about Lesedi.Services that she offers.Programming knowlegde">
-    <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+    <meta property="og:description" content="Home page about Lesedi,her coding ability,acquired knowledge at Ada and contact details">
+    <meta property="og:image" content="https://media-exp1.licdn.com/dms/image/C4E03AQE4s67mTDViSA/profile-displayphoto-shrink_400_400/0?e=1598486400&v=beta&t=29xGZGSSG5J3gbn93dfE6P4k1i0JVJ9HW2Ijk1hw_B0">
     <meta property="og:url" content="https://lesedimaleka.github.io/PortfolioWebsite/">
 
 
-  <!-- Bootstrap 4 css -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Bootstrap 4 css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 
   
@@ -20,7 +20,7 @@
 
     <!-- external style sheet -->
     <link rel="stylesheet" href="css/styleSheets.css">
-<!-- <link rel="stylesheet" href="css/sheets.css"> -->
+
 
     <!-- fontawesome icon style link -->
     <link rel="stylesheet" href="assests/fontawesome/css/all.min.css">
@@ -32,11 +32,11 @@
         <![endif]-->
   
 
-    <title>Lesedi Maleka</title>
+    <title>Lesedi Maleka:Homepage</title>
 </head>
 <body>
 
-  <!-- test -->
+  
 
     <!-- icons -->
   <div class="container icons">
@@ -44,59 +44,63 @@
       <div class="col-10 col-xl-12 MediaDiv">
 
           <!-- media icons -->
-         <div class="icon"><a href="https://github.com/LesediMaleka/PortfolioWebsite"><i class="fab fa-github mediaIcons"></i></a></div>
+         <div class="icon">
+           <a href="https://github.com/LesediMaleka/PortfolioWebsite" target="_blank">
+            <i class="fab fa-github mediaIcons"></i>
+           </a>
+        </div>
 
 
          <div class="icon">
-           <a href="https://www.linkedin.com/mynetwork/">
-           <i class="fab fa-linkedin-in mediaIcons"></i></a>
+           <a href="https://www.linkedin.com/mynetwork/" target="_blank">
+            <i class="fab fa-linkedin-in mediaIcons"></i>
+           </a>
           </div>
 
-         <div class="icon"><a href="mailto:sedicharity@gmail.com"><i class="fas fa-envelope mediaIcons"></i></a></div>
-
-
          <div class="icon">
-           <a href="tel:+27630796882">
-             <i class="fas fa-phone mediaIcons"></i>
+           <a href="mailto:sedicharity@gmail.com" target="_blank">
+             <i class="fas fa-envelope mediaIcons"></i>
             </a>
           </div>
 
-       
-      </div>
-      <div class="col-2 mobile-only" >
-     
 
+         <div class="icon">
+           <a href="tel:+27630796882" target="_blank">
+             <i class="fas fa-phone mediaIcons"></i>
+            </a>
+          </div>
+      </div>
+
+      <div class="col-2 mobile-only">
          <i class="fas fa-bars icon mobile-only mediaIcons Bars" style="cursor:pointer" onclick="openNav()"></i>
-
       </div>
+
     </div>
   </div>
 
   <!-- hidden navigation menu on mobile -->
   <div id="myNav" class="overlay container-fluid">
-    <div class="row my-3">
-      <div class="col-12">
+      <div class="row my-3">
+        <div class="col-12">
 
-     
+            <div class="icon closebtn">
+              <i class="fas fa-times mediaIcons" onclick="closeNav()"></i>
+          </div>
 
-          <div class="icon closebtn">
-            <i class="fas fa-times mediaIcons" onclick="closeNav()"></i>
-         </div>
-
-
-      </div>
-      <div class="col-12 my-5">
-        <div class="overlay-content text-center">
-          <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="AboutMe.html">About Me</a></li>
-            <li><a href="journey.html">Journey</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="Contact.html">Get In Touch</a></li>
-          </ul>
         </div>
+
+        <div class="col-12 my-5">
+              <div class="overlay-content text-center">
+                <ul>
+                  <li><a href="index.html" class="active">Home</a></li>
+                  <li><a href="AboutMe.html">About Me</a></li>
+                  <li><a href="journey.html">Journey</a></li>
+                  <li><a href="resume.html">Resume</a></li>
+                  <li><a href="Contact.html">Get In Touch</a></li>
+                </ul>
+              </div>
+       </div>
       </div>
-    </div>
   </div>
   
         <!-- header name and hr -->
@@ -155,95 +159,94 @@
   <!--Tagline section -->
  <div class="block TaglineDiv">
     <div class="container-fluid my-5">
-    
-      <div class="row">
-        <div class="col-sm-12">
-    
-          
-          <div class="text-center hide-on-desktop GreetingDiv typewriter">
-    
-            <p class="Tagline text-center">&#x7b;
-              <strong class="greeting">HI</strong>&#x7d;
-            </p>
-    
-            <p class="TaglinePara"> &#x3c;p&#x3e;
+
+        <div class="row">
+            <div class="col-sm-12">
+
+            <div class="text-center hide-on-desktop GreetingDiv typewriter">
+
+                <p class="Tagline text-center">&#x7b;
+                <strong class="greeting">HI</strong>&#x7d;
+                </p>
+
+                <p class="TaglinePara"> &#x3c;p&#x3e;
                 <strong class="TaglineParaText">I am a front-end developer,   <br>
-                  and an unconventional web-designer.
+                and an unconventional web-designer.
                 </strong> &#x3c;/p&#x3e;
-            </p>
-    
-          </div>
-    
-          <div class="text-center hide-on-desktop">
-            
+                </p>
+
+            </div>
+
+            <div class="text-center hide-on-desktop">
+
                 <div class="desktop-only arrowDiv">
-                    <p class="arrow">&#x2193; </p>
+                   <p class="arrow">&#x2193; </p>
                 </div>
 
-         </div>
+            </div>
+
+            </div>
 
         </div>
-      
-      </div>
     </div>
-   </div>
+  </div>
 
 
  <!-- About me section -->
 
- <div class="block">
+  <div class="block">
 
-      <!-- heading-->
-      <div class="container-fluid my-5">
+          <!-- heading-->
+          <div class="container-fluid my-5">
 
-          <div class="row AboutMeHeading">
-              
-              <div class="col-sm-12 col-lg-10">
-                  <h2 class="Heading AboutMeHeading">About me</h2> 
+              <div class="row AboutMeHeading">
+
+                  <div class="col-sm-12 col-lg-10">
+                    <h2 class="Heading AboutMeHeading">About me</h2> 
+                  </div>
+
               </div>
-
-          </div>
-      </div>
-
-<!-- coders image section -->
-<div class="container-fluid my-5">
-
-<div class="row">
-      <div class="col-lg-6 col-sm-12">
-
-            <div class=" text-center ImageDiv">
-              <img class="LesediImage" src="assests/images/Lesedi.jpg" alt="Lesedi's picture:Ada former student">
-            </div>
-
-      </div>
-
- <!-- coders about me content -->
-    <div class="col-lg-6 col-sm-12">
-
-          <div class="text-center hide-on-desktop">
-            <p class="AboutMeContent Paratext">My name is Lesedi Maleka. I was born in a small town known as Schweizer-Reneke, North West. I later moved to Johannesburg where most of my paternal family lives. I am a Junior Developer with a few months experience in creating and developing websites. A little bit about myself;I consider myself to be an intelligent person, and love fun-facts that can be irrelevant to most.</p>
-
-            <p class="AboutMeContent Paratext">I love what I do, and I am passionate about coding, and causes me to challenge myself on a daily basis. It is the driving force behind what I do. It is my motivation to strive to improve with every project. Coding has for years been a male dominated field, however there are more women in programming who are making significant contributions to the field. This knowledge has taught me the importance of having the perseverance to change things. Therefore, I will strive towards making positive changes.</p>
-
-          <p class="AboutMeContent Paratext">By adapting and being patient in solving complex problems,I have developed multiple skills and learnt to find solutions.It is my hope that my successes and achievements will further motivate more women to consider this field. It would be a great priviledge and pleasure if I could make direct and meaningful contributions to the empowerment of women.</p>
-
-          <p class="AboutMeContent Paratext">Don’t be fooled, I’m not just a programmer, I am so much more. Outside of programming and in terms of hobbies, I enjoy watching soccer, taking photographs and reading fictional books.</p>
-
           </div>
 
-          <!--  -->
+  <!-- coders image section -->
+  <div class="container-fluid my-5">
 
-          <div class="text-center hide-on-desktop AboutMeDIv">
-            <a href="AboutMe.html">
-              <button type="button" class="btn AboutMeButton"> More about me</button>
-            </a>
-          </div>
-          <!--  -->
+  <div class="row">
+  <div class="col-lg-6 col-sm-12">
 
-    </div>
-    </div>
+  <div class=" text-center ImageDiv">
+  <img class="LesediImage" src="assests/images/Lesedi.jpg" alt="Lesedi's picture:Ada former student">
+  </div>
 
-    </div>
+  </div>
+
+  <!-- coders about me content -->
+  <div class="col-lg-6 col-sm-12">
+
+  <div class="text-center hide-on-desktop">
+  <p class="AboutMeContent Paratext">My name is Lesedi Maleka. I was born in a small town known as Schweizer-Reneke, North West. I later moved to Johannesburg where most of my paternal family lives. I am a Junior Developer with a few months experience in creating and developing websites. A little bit about myself;I consider myself to be an intelligent person, and love fun-facts that can be irrelevant to most.</p>
+
+  <p class="AboutMeContent Paratext">I love what I do, and I am passionate about coding, and causes me to challenge myself on a daily basis. It is the driving force behind what I do. It is my motivation to strive to improve with every project. Coding has for years been a male dominated field, however there are more women in programming who are making significant contributions to the field. This knowledge has taught me the importance of having the perseverance to change things. Therefore, I will strive towards making positive changes.</p>
+
+  <p class="AboutMeContent Paratext">By adapting and being patient in solving complex problems,I have developed multiple skills and learnt to find solutions.It is my hope that my successes and achievements will further motivate more women to consider this field. It would be a great priviledge and pleasure if I could make direct and meaningful contributions to the empowerment of women.</p>
+
+  <p class="AboutMeContent Paratext">Don’t be fooled, I’m not just a programmer, I am so much more. Outside of programming and in terms of hobbies, I enjoy watching soccer, taking photographs and reading fictional books.</p>
+
+  </div>
+
+
+
+  <div class="text-center hide-on-desktop AboutMeDIv">
+  <a href="AboutMe.html">
+  <button type="button" class="btn AboutMeButton"> More about me</button>
+  </a>
+  </div>
+
+
+  </div>
+  </div>
+
+  </div>
 
 </div>
 
@@ -252,29 +255,29 @@
 
  <div class="block">
 
-      <!-- heading-->
-      <div class="container-fluid my-5">
+            <!-- heading-->
+            <div class="container-fluid my-5">
 
-          <div class="row AboutMeHeading">
-              
-              <div class="col-sm-12 col-lg-10">
-                  <h2 class="Heading AboutMeHeading">I am an Ada graduate</h2> 
-              </div>
+                <div class="row AboutMeHeading">
+                    
+                    <div class="col-sm-12 col-lg-10">
+                        <h2 class="Heading AboutMeHeading">I am an Ada graduate</h2> 
+                    </div>
 
-          </div>
-      </div>
+                </div>
+            </div>
 
 <!-- coders image section -->
 <div class="container-fluid my-5">
 
-     <div class="row">
-      <div class="col-lg-6 col-sm-12">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
 
-            <div class=" text-center ImageDiv">
-              <img class="Image" src="assests/images/ada.png" alt="Picture of African developers acadamy">
+                  <div class=" text-center ImageDiv">
+                    <img class="Image" src="assests/images/ada.png" alt="Picture of African developers acadamy">
+                  </div>
+
             </div>
-
-      </div>
 
               <!-- graduate content -->
               <div class="col-lg-6 col-sm-12">
@@ -290,28 +293,28 @@
                 <div class="container-fluid my-5">
 
                       <div class="row">
-                        <div class="col-lg-6 col-sm-12">
-                          <div class="text-center hide-on-desktop">
-                            
-                            <a href="journey.html">
-                              <button type="button" class="btn GraduateButton SecondGraduateButton"> My journey at ADA</button>
-                            </a>
-                    
+                          <div class="col-lg-6 col-sm-12">
+                            <div class="text-center hide-on-desktop">
+                              
+                              <a href="journey.html">
+                                <button type="button" class="btn GraduateButton SecondGraduateButton"> My journey at ADA</button>
+                              </a>
+                      
+                            </div>
+
                           </div>
 
-                        </div>
+                          <br><br>
+                          <div class="col-lg-6 col-sm-12">
 
-                        <br><br>
-                        <div class="col-lg-6 col-sm-12">
+                            <div class="text-center hide-on-desktop">
 
-                          <div class="text-center hide-on-desktop">
-
-                            <a href="resume.html">
-                              <button type="button" class="btn GraduateButton"> View my resume</button>
-                            </a>
-                    
+                              <a href="resume.html">
+                                <button type="button" class="btn GraduateButton"> View my resume</button>
+                              </a>
+                      
+                            </div>
                           </div>
-                        </div>
                       </div>
                     
                     </div>
@@ -325,12 +328,7 @@
 </div>
  
 
-<!-- testing -->
 
-
-
-
-<!-- testing -->
 <!-- get in touch section -->
  <div class="block">
 
@@ -338,19 +336,17 @@
   
     <div class="container-fluid my-5">
 
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <h2 class="Heading text-center">Get in touch!</h2>
-      </div>
-      </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2 class="Heading text-center">Get in touch!</h2>
+          </div>
+          </div>
 
       <div class="row">
 
         <div class="col-lg-6 col-sm-12 text-center FormDIv">
 
           <div class="text-center hide-on-desktop">
-
-          
 
             <p class="AboutMeContent">Need help with designing a personal, business or creative website or looking for a vibrant, creative front-end developer with huge potential? I might come in handy.</p>
 
@@ -360,36 +356,36 @@
 
           </div>
 
-          <form>
-            <div class="form-group">
-            
-              <input type="name" class="form-control text-white" id="exampleFormControlInput1" placeholder="Your name">
-            </div>
-          
-            <div class="form-group">
-            
-              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Your email">
-            </div>
-      
-            <div class="form-group">
+              <form>
+                <div class="form-group">
+                
+                  <input type="name" class="form-control text-white" id="exampleFormControlInput1" placeholder="Your name">
+                </div>
               
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"  placeholder="Your message"></textarea>
-            </div>
-          </form>
+                <div class="form-group">
+                
+                  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Your email">
+                </div>
+          
+                <div class="form-group">
+                  
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"  placeholder="Your message"></textarea>
+                </div>
+              </form>
       
             
-          <a href="mailto:sedicharity@gmail.com">
-            <button type="button" class="btn FormButton"> Send!</button>
-          </a>
+              <a href="mailto:sedicharity@gmail.com">
+                <button type="button" class="btn FormButton"> Send!</button>
+              </a>
 
         
-        </div>
+         </div>
 
 
     
-      </div>
+       </div>
 
-    </div>
+        </div>
 
   </div>
  
@@ -402,7 +398,7 @@
           <div class="col-12 col-xl-12">
     
               <!-- media icons -->
-              <a href="https://github.com/LesediMaleka/PortfolioWebsite">
+              <a href="https://github.com/LesediMaleka/PortfolioWebsite" target="_blank">
                 <div class="icon">
                   <i class="fab fa-github mediaIcons"></i>
                 </div>
@@ -410,20 +406,20 @@
     
     
             <div class="icon">
-              <a href="https://www.linkedin.com/mynetwork/">
+              <a href="https://www.linkedin.com/mynetwork/" target="_blank">
                 <i class="fab fa-linkedin-in mediaIcons"></i>
               </a>
             </div>
     
             <div class="icon">
-              <a href="mailto:sedicharity@gmail.com">
+              <a href="mailto:sedicharity@gmail.com" target="_blank">
                 <i class="fas fa-envelope mediaIcons"></i>
               </a>
             </div>
     
     
             <div class="icon">
-              <a href="tel:+27630796882">
+              <a href="tel:+27630796882" target="_blank">
                 <i class="fas fa-phone mediaIcons"></i>
                 </a>
               </div>
@@ -433,9 +429,9 @@
         
         </div>
 
-        <div class="FooterText  text-center">
-          <p class="CopyText">Copyright 2020,made by <strong class="FullName">Lesedi Maleka</strong> </p>
-        </div>
+          <div class="FooterText  text-center">
+            <p class="CopyText">Copyright 2020,made by <strong class="FullName">Lesedi Maleka</strong> </p>
+          </div>
         
       
       </div>
