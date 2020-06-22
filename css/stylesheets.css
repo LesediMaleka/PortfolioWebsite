@@ -23,6 +23,10 @@ h2{
     font-size: 0.8em;
     margin-top: 5vh;
 }
+p{
+  font-size: 14px;
+  font-weight: 250;
+}
 .MediaDiv{
     z-index: 20;
 }
@@ -305,6 +309,17 @@ color:#f7931e;
   }
 
 
+  /* testimonials */
+  .card{
+    border: none;
+    border-radius: 0;
+    background: #eb5e28;
+  }
+  .card-img-top{
+    border-radius: 0;
+  }
+
+
 
    /* --------------------------------------------------------------media queries */
  
@@ -319,7 +334,12 @@ color:#f7931e;
  
  /* // --------------------------------------------------------------Medium devices (tablets) */
  @media (min-width: 768px) {
-
+   .testimonial-block{
+     padding: 25px 50px;
+   }
+  .testimonial{
+    padding: 10px;
+  }
 
      
  }
@@ -502,6 +522,12 @@ color:#f7931e;
   width: 15vw;
   margin-left: -10vw;
 }
+
+/* testimonials section */
+.testimonial-block{
+  padding: 50px 100px;
+}
+
   /* journey page */
   .JourneyHeading{
    margin-top: 5vh;
