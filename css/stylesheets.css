@@ -25,6 +25,7 @@ h2{
 }
 .MediaDiv{
     z-index: 20;
+    margin-left: -5vw;
 }
 /* Navbar for mobile*/
 .overlay {
@@ -178,6 +179,14 @@ a:hover{
     margin-top: 5vh;
     font-weight: 200;
     font-size: 1.5em;
+    color:#f7931e;
+}
+
+ /* about me section */
+ .AboutMeHeading{
+    margin-top: 5vh;
+    font-weight: 200;
+    font-size: 1.2em;
     color:#f7931e;
 }
 /* grey div */
@@ -469,6 +478,17 @@ a:hover{
   .SkillsDiv h2 {
     color: #fff;
   }
+
+  .SkillsDivTwo{
+    background-color: rgb(119, 118, 118);;
+    color: #fff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 5vh;
+  }
+  .SkillsDivTwo h2 {
+    color: #fff;
+  }
   
   .Stars{
     text-align: justify;
@@ -522,7 +542,7 @@ a:hover{
   }
     
     /* animation for the desktop navbar */
-    /* @keyframes slide-in {
+    @keyframes slide-in {
       0% {
         top: -50px; color: #fff;
       }
@@ -536,7 +556,7 @@ a:hover{
         top: -20px; color: #fff;
       }
     }
-  */
+ 
  
     /* grey div */
     .block{
@@ -547,7 +567,7 @@ a:hover{
   .MediaDiv{
     margin-bottom: -40vh;
     padding-top: 50px;
-    margin-left: 5vw;
+    margin-left: -10vw;
     }
     /* hr line */
   .NameHrLine{
