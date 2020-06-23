@@ -25,6 +25,12 @@
     <!-- fontawesome icon style link -->
     <link rel="stylesheet" href="assests/fontawesome/css/all.min.css">
 
+    <!-- link to animate.css -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+    <!-- link to animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -40,8 +46,8 @@
 
     <!-- icons -->
   <div class="container icons">
-    <div class="row my-3">
-      <div class="col-10 col-xl-12 MediaDiv">
+    <div class="row my-3 text-center">
+      <div class="col-10 col-xl-12 MediaDiv animate__animated animate__fadeInDown">
 
           <!-- media icons -->
          <div class="icon">
@@ -106,7 +112,7 @@
   <!-- header name and hr -->
   <div class="container">
     <div class="row mt-5">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center animate__animated animate__fadeInDown">
         <h1 class="name">LESEDI</h1>
         <hr>
       </div>
@@ -157,6 +163,7 @@
   </div>
 
   <!--Tagline section -->
+ 
  <div class="block TaglineDiv">
     <div class="container-fluid my-5">
 
@@ -164,10 +171,11 @@
             <div class="col-sm-12">
 
             <div class="text-center hide-on-desktop GreetingDiv typewriter">
-
-                <p class="Tagline text-center">&#x7b;
-                <strong class="greeting">HI</strong>&#x7d;
-                </p>
+              <div class="Tagline">
+                <p>&#x7b;<strong class="greeting">HI</strong>&#x7d;
+                  </p>
+              </div>
+                
 
                 <p class="TaglinePara"> &#x3c;p&#x3e;
                 <strong class="TaglineParaText">I am a front-end developer,   <br>
@@ -251,14 +259,14 @@
 
 
  <!--I am an Ada graduate section -->
- <div class="block">
+ <div class="block" data-aos="fade-up">
 
             <!-- heading-->
             <div class="container-fluid my-5">
 
                 <div class="row AboutMeHeading">
                     
-                    <div class="col-sm-12 col-lg-10">
+                    <div class="col-sm-12 col-lg-10" data-aos="fade-left" data-aos-delay="100">
                         <h2 class="AboutMeHeading">I am an Ada graduate</h2> 
                     </div>
 
@@ -269,7 +277,7 @@
 <div class="container-fluid my-5">
 
           <div class="row">
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-lg-6 col-sm-12" data-aos="fade-right" data-aos-delay="100">
 
                   <div class=" text-center ImageDiv">
                     <img class="Image" src="assests/images/ada.png" alt="Picture of African developers acadamy">
@@ -278,7 +286,7 @@
             </div>
 
               <!-- graduate content -->
-              <div class="col-lg-6 col-sm-12">
+              <div class="col-lg-6 col-sm-12" data-aos="fade-left" data-aos-delay="100">
 
                     <div class="text-center hide-on-desktop">
                       <p class="AboutMeContent Paratext">I have studied front-end development at the African Developers Academy. It was an invaluable experience and I really enjoyed it. I made mistakes and learnt from them - they have helped me to grow as a person. Working in groups has taught me the importance of teamwork, and how much my contributions can add value. I am willing to go the extra mile in order to achieve the objectives and goals. I learnt to put more effort into my job and my projects.</p>
@@ -573,11 +581,15 @@
 
    <!-- Bootstrap 4 javascript -->
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-<!-- My script link -->
-<script src="js/JavaScript.js"></script>
+  <!-- My script link -->
+  <script src="js/JavaScript.js"></script>
+
+  <!-- animate on scroll scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
 
 </body>
 </html>

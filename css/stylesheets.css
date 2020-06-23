@@ -120,17 +120,23 @@ a:hover{
 
 
  /* Tagline section */
-.Tagline{
+.Tagline p{
     font-size: 6em;
     color:rgb(105, 102, 102);
     font-weight: 250;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 0;
+    animation: typing 1s steps(4, end) forwards;
+    animation-delay: 0.5s;
 }
 .greeting{
     color: white;
     font-weight: 350;
-    animation: 
+    /* animation: 
     typing 3.5s steps(30, end),
-    mymove 3.5s;
+    mymove 3.5s; */
     
 }
 .TaglinePara{
@@ -152,7 +158,7 @@ a:hover{
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 100%}
 }
 
 .arrowDiv{
@@ -355,8 +361,13 @@ a:hover{
     padding: 10px;
   }
 
-     
+   /* Tagline section */
+  .Tagline p{
+    font-size: 5em;
+    animation: typing 2s steps(20, end) forwards; 
+    animation-delay: 1s;   
  }
+}
  
  /* -Large devices (ipad pro) */
  @media (min-width: 992px) { 
@@ -475,7 +486,7 @@ a:hover{
  
   /* media icons */
   .icons{
-      margin-left: 70%;
+      margin-left: 55%;
   }
 
   .mobile-only{
@@ -545,9 +556,11 @@ a:hover{
   }
 
   /* tagline section */
-  .Tagline{
-    font-size: 5em;
-  }
+   .Tagline p{
+    font-size: 8em;
+    animation: typing 3.5s steps(30, end) forwards; 
+    animation-delay: 1s;   
+ }
   .TaglinePara{
     font-size: 0.9em;
   }
@@ -608,4 +621,5 @@ a:hover{
     }
  
    }
+  
    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
