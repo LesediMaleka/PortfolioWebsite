@@ -25,10 +25,10 @@ h2{
 }
 .MediaDiv{
     z-index: 20;
-    margin-left: -5vw;
+    /* margin-left:-2vw; */
 }
 /* Navbar for mobile*/
-.overlay {
+.overlay{
     height: 100%;
     width: 100%;
     display: none;
@@ -93,7 +93,7 @@ h2{
 
  /* burger navbar */
 .Bars{
-    margin-left: -5vh;
+    margin-left: -5vw;
 }
 a{
     color: white;
@@ -361,8 +361,36 @@ a:hover{
    
  }
  
- /* -Medium devices (tablets) */
+ /* -Medium devices (tablets or ipad) */
  @media (min-width: 768px) {
+
+  /* navbar section*/
+  .TabletNavbar{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+  }
+   /* burger navbar */
+  .Bars{
+    margin-left: 5vw;
+  }
+
+  /*header name and hr  */
+  .name{
+    margin-top: -2vh;
+  }
+
+  /* Tagline section */
+  .TaglineDiv{
+    margin-bottom: 2vh;
+  }
+
+  /* about me stion */
+  .AboutMeButton{
+    width: 30vw;
+  }
+  
+
+
    .testimonial-block{
      padding: 25px 50px;
    }
@@ -399,6 +427,7 @@ a:hover{
     margin-top: 5vh;
     font-weight: 200;
   }
+  
   #TestimonalsHeading{
     margin-left: -22vw;
     margin-top: -5vh;
@@ -567,7 +596,7 @@ a:hover{
   .MediaDiv{
     margin-bottom: -40vh;
     padding-top: 50px;
-    margin-left: -10vw;
+    margin-left: 15vw;
     }
     /* hr line */
   .NameHrLine{

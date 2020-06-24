@@ -41,47 +41,38 @@
 <body>
 
     <!-- icons -->
-  <div class="container icons">
-    <div class="row my-3">
-      <div class="col-10 col-xl-12 MediaDiv">
-
-          <!-- media icons -->
-          <div class="icon">
-              <a href="https://github.com/LesediMaleka/PortfolioWebsite" target="_blank">
-              <i class="fab fa-github mediaIcons"></i>
+    <div class="container icons">
+      <div class="row my-3">
+        <div class="col-10 col-xl-12 MediaDiv animate__animated animate__fadeInDown">
+  
+            <!-- media icons -->
+           <div class="icon"><a href="https://github.com/LesediMaleka/PortfolioWebsite" target="_blank"><i class="fab fa-github mediaIcons"></i></a></div>
+  
+  
+           <div class="icon">
+             <a href="https://www.linkedin.com/mynetwork/" target="_blank">
+             <i class="fab fa-linkedin-in mediaIcons"></i></a>
+            </div>
+  
+           <div class="icon"><a href="mailto:sedicharity@gmail.com" target="_blank"><i class="fas fa-envelope mediaIcons"></i></a></div>
+  
+  
+           <div class="icon">
+             <a href="tel:+27630796882" target="_blank">
+               <i class="fas fa-phone mediaIcons"></i>
               </a>
-          </div>
-
-
-         <div class="icon">
-           <a href="https://www.linkedin.com/mynetwork/" target="_blank">
-           <i class="fab fa-linkedin-in mediaIcons"></i>
-          </a>
-          </div>
-
-         <div class="icon">
-           <a href="mailto:sedicharity@gmail.com" target="_blank">
-             <i class="fas fa-envelope mediaIcons"></i>
-            </a>
-          </div>
-
-
-         <div class="icon">
-           <a href="tel:+27630796882" target="_blank">
-             <i class="fas fa-phone mediaIcons"></i>
-            </a>
-          </div>
-
+            </div>
+  
+         
+        </div>
+        <div class="col-2 mobile-only" >
        
-      </div>
-      <div class="col-2 mobile-only" >
-     
-
-         <i class="fas fa-bars icon mobile-only mediaIcons Bars" style="cursor:pointer" onclick="openNav()"></i>
-
+  
+           <i class="fas fa-bars icon mobile-only mediaIcons Bars animate__animated animate__fadeInDown" style="cursor:pointer" onclick="openNav()"></i>
+  
+        </div>
       </div>
     </div>
-  </div>
 
   <!-- hidden navigation menu on mobile -->
   <div id="myNav" class="overlay container-fluid">
@@ -110,15 +101,15 @@
     </div>
   </div>
   
-  <!-- header name and hr -->
-  <div class="container">
-    <div class="row mt-5">
-      <div class="col-12 text-center">
-        <h1 class="name">LESEDI</h1>
-        <hr>
+    <!-- header name and hr -->
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 text-center animate__animated animate__fadeInDown">
+          <h1 class="name">LESEDI</h1>
+          <hr>
+        </div>
       </div>
     </div>
-  </div>
 
 <!-- hr line -->
   <div class="NameHrLine"></div>
@@ -173,54 +164,64 @@
   </div>
   </div>
 
-  <div class="block">
+   <!-- get in touch section -->
+   <div class="block" data-aos="zoom-in" data-aos-delay="300">
 
-  <div class="container-fluid my-5">
 
-    <div class="row">
+    <div class="container-fluid my-5">
 
-      <div class="col-lg-6 col-sm-12 text-center FormDIv">
+          
 
-        <div class="text-center hide-on-desktop">
+      <div class="row">
 
-          <!-- selling paragraph -->
-          <p class="AboutMeContent">Need help with designing a personal, business or creative website or looking for a vibrant, creative front-end developer with huge potential? I might come in handy.</p>
+        <div class="col-lg-6 col-sm-12 text-center FormDIv" data-aos="fade-right" data-aos-delay="100">
 
-          <p class="AboutMeContent">Whichever it is, please send me an email and I will be in touch with you as soon as possible.</p>
+          <div class="text-center hide-on-desktop">
 
-          <p class="AboutMeContent"> Alternatively, a good-old-fashioned phone call works wonders too.</p>
+            <p class="AboutMeContent">Need help with designing a personal, business or creative website or looking for a vibrant, creative front-end developer with huge potential? I might come in handy.</p>
 
+            <p class="AboutMeContent">Whichever it is, please send me an email and I will be in touch with you as soon as possible.</p>
+
+            <p class="AboutMeContent"> Alternatively, a good-old-fashioned phone call works wonders too.</p>
+
+          </div>
+
+              <form action="https://formspree.io/mdowdqbw"
+              method="POST">
+                <div class="form-group">
+                
+                  <input type="text" name="_gotcha" style="display:none" />
+
+                  <input type="text" name="name" class="form-control text-white" id="exampleFormControlInput1" placeholder="Your name">
+                </div>
+              
+                <div class="form-group">
+                
+                  <input  type="text" name="_replyto" class="form-control" id="exampleFormControlInput2" placeholder="Your email">
+                </div>
+          
+                <div class="form-group">
+                  
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"  name="message" placeholder="Your message"></textarea>
+                </div>
+
+                <a href="mailto:sedicharity@gmail.com">
+                  <button type="submit" class="btn FormButton"> Send!</button>
+                </a>
+                
+              </form>
+      
+            
+             
+
+        
+          </div>
+
+
+    
         </div>
 
-        <!-- form section -->
-        <form>
-          <div class="form-group">
-          
-            <input type="name" class="form-control text-white" id="exampleFormControlInput1" placeholder="Your name">
-          </div>
-        
-          <div class="form-group">
-          
-            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Your email">
-          </div>
-    
-          <div class="form-group">
-            
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"  placeholder="Your message"></textarea>
-          </div>
-        </form>
-    
-          
-        <a href="mailto:sedicharity@gmail.com"> 
-          <button type="button" class="btn FormButton"> Send!</button>
-        </a>
-
-      
-      </div>
-
-    </div>
-
-  </div>
+        </div>
 
   </div>
   
@@ -261,7 +262,7 @@
         
         </div>
 
-        <div class="FooterText  text-center animate__animated animate__bounceInDown animate__delay-3s">
+        <div class="FooterText  text-center">
           <p class="CopyText">Copyright 2020,made by <strong class="FullName">Lesedi Maleka</strong> </p>
         </div>
         
