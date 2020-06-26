@@ -192,7 +192,7 @@ a:hover{
     margin: auto;
     text-align: center;
     background: rgb(41, 40, 40);
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 /* paragraph text for all the pages and sectiopn */
 .AboutMeContent{
@@ -425,6 +425,7 @@ a:hover{
     margin-left: 75%;
     margin-bottom: -5vh;
   }
+  
 
   .mobile-only{
       display: none;
@@ -454,10 +455,7 @@ a:hover{
   .nav-link:hover{
       color: #f7931e;
       text-shadow: 0 -1px 0 #eb5e28;
-  }
-  
-
-    
+  }    
     /* Tagline section */
     .TaglineDiv{
       margin-top:5vh;
@@ -542,17 +540,17 @@ a:hover{
     width: 82vw;
     margin: auto;
     margin-top: 25px;
-    margin-left: 2vw;
+    margin-left: 2.5vw;
   }
   .laptopIcon{
     background-color: white;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     margin-left: 5vw;
   }
   .JobTitle{
     color: #000;
     margin-left: -30vw;
-    margin-top: 7vh;
+    margin-top: 4vh;
   }
   .AboutMeButton{
     width: 20vw;
@@ -566,7 +564,6 @@ a:hover{
   .FormButton{
   width: 20vw;
   }
-  
   .FormDiv{
   width: 80vw;
   margin: auto;
@@ -600,7 +597,7 @@ a:hover{
   .Stars{
     text-align: justify;
     color: white;
-    margin-left: 12vw;
+    /* margin-left: 12vw; */
     font-size: 0.8em;
   }
   .SkillsText{
@@ -662,10 +659,11 @@ a:hover{
   }
   .laptopIcon{
     margin-bottom: 25px;
-    margin-left: 25vw;
+    margin-left: 10vw;
   }
   .JobTitle{
     margin-left: -25vw;
+    margin-top: 7vh;
   }
   /* I am an Ada graduate section */
   .GraduateButton{
@@ -684,14 +682,17 @@ a:hover{
 
     /* testimonials section */
   .testimonial-block{
-    padding: 50px 100px;
+    padding: 20px 100px;
   }
   .ContactDiv{
     width: 10vw;
     height: 10vh;
   }
   .testimonial{
-    margin-bottom: 10vw;
+    margin-bottom: 8vw;
+  }
+  .TestimonialsDiv{
+    margin-bottom: 10vh;
   }
   .contactInfo{
     margin-top: -0.5vh;
