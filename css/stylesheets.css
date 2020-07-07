@@ -399,6 +399,7 @@ a:hover{
   /* Graduate section */
   .GraduateButton{
     width: 30vw;
+    margin-bottom: 5vh;
   }
   .Image{
     margin-bottom: 2vh;
