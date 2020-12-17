@@ -556,6 +556,9 @@ a:hover{
    .JourneyHeading{
     margin-top: 5vh;
   } 
+  .JourneyPara{
+    margin-top: 6vh;
+  }
   /* get in touch section/page */
   .FormButton{
   width: 20vw;
@@ -667,6 +670,9 @@ a:hover{
   /* journey page */
   .JourneyHeading{
    margin-top: 5vh;
+  }
+   .JourneyPara{
+    margin-top: 6vh;
   }
   /* get in touch section/page */
   .FormButton{
